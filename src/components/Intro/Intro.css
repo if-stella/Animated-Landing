@@ -5,7 +5,6 @@
 }
 
 .i-left {
-  background:palegreen;
   flex:1;
   position:relative;
   flex-direction: column;
@@ -36,7 +35,6 @@
 .i-right {
   flex:1;
   position:relative;
-  background:paleturquoise;
 }
 
 .i-right>*{
@@ -89,14 +87,14 @@
   cursor: pointer;
 }
 
-.blur {
+.i-blur {
   position: absolute;
   width: 40rem;
-  height: 14rem;
+  height: 24rem;
   border-radius: 50%;
-  background: #edd0ff;
-  z-index: -5;
-  top: -18%;
-  left: 56%;
-  filter: blur(200px);
+  background: #ffd484;
+  z-index: -1;
+  top: 13%;
+  left: 10%;
+  filter: blur(125px);
 }

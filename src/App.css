@@ -13,7 +13,6 @@
 
 .App{
     overflow: hidden;
-    background:white;
     color: var(--black);
 }
 

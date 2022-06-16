@@ -1,18 +1,17 @@
 .services {
-  background: yellow;
   display: flex;
   padding: 2rem 3.5rem;
+  height: 90vh;
+  align-items:center;
 }
 
 .s-left {
-  background: orange;
   flex:1;
   position:relative;
   flex-direction: column;
 }
 
 .s-text {
-  background: orangered;
   display:flex;
   flex-direction: column;
 }
@@ -39,5 +38,21 @@
 }
 
 .s-right-cards {
-  background: red;
+  position:relative;
+}
+
+.s-right-cards>* {
+  position:absolute;
+}
+
+.s-blur {
+  position: relative;
+  width: 40rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: #ffa500;
+  z-index: -5;
+  top: -18%;
+  left: -25%;
+  filter: blur(200px);
 }

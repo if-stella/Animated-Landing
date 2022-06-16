@@ -6,7 +6,7 @@ import Linkedin from '../../img/linkedin.png'
 import Instagram from '../../img/instagram.png'
 import Vector1 from '../../img/Vector1.png'
 import Vector2 from '../../img/Vector2.png'
-import boy from '../../img/boy.png'
+import girl from '../../img/girl.png'
 import thumbup from '../../img/thumbup.png'
 import crown from '../../img/crown.png'
 import glassesimoji from '../../img/glassesimoji.png'
@@ -36,7 +36,7 @@ const Intro = () => {
       <div className="i-right">
         <img src={Vector1} alt="Vector1"/>
         <img src={Vector2} alt="Vector2"/>
-        <img src={boy} alt="boy"/>
+        <img src={girl} alt="girl"/>
         <img src={glassesimoji} alt="glassesimoji"/>
         <div style={{top: '-4%', left: '68%'}}>
           <Floatingdiv image={crown} txt1="Web" txt2="Developper" />

@@ -17,10 +17,10 @@ const Portfolio = () => {
         <span>recent projects</span>
       </div>
       <Swiper
-        spaceBetween={'24px'}
-        slidesPerView={3}
-        grabCursor={true}
-        className='portfolio-slider'
+         spaceBetween={30}
+         slidesPerView={3}
+         grabCursor={true}
+         className="portfolio-slider"
         >
         <SwiperSlide>
           <img src={GymAlly} alt="GymAlly-display" />

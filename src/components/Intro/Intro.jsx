@@ -7,9 +7,9 @@ import Instagram from '../../img/instagram.png'
 import Vector1 from '../../img/Vector1.png'
 import Vector2 from '../../img/Vector2.png'
 import girl from '../../img/girl.png'
-import thumbup from '../../img/thumbup.png'
-import crown from '../../img/crown.png'
-import glassesimoji from '../../img/glassesimoji.png'
+import Planet2 from '../../img/Planet2.png'
+import Planet1 from '../../img/Planet1.png'
+import Star from '../../img/Star.png'
 import Resume from './resume.pdf'
 
 const Intro = () => {
@@ -41,12 +41,12 @@ const Intro = () => {
         <img src={Vector2} alt="Vector2"/>
         <img src={Vector1} alt="Vector1"/>
         <img src={girl} alt="girl"/>
-        <img src={glassesimoji} alt="glassesimoji"/>
+        <img src={Star} alt="Star"/>
         <div style={{top: '-4%', left: '68%'}}>
-          <Floatingdiv image={crown} txt1="Web" txt2="Developper" />
+          <Floatingdiv image={Planet1} txt1="Web" txt2="Developper" />
         </div>
         <div style={{top: '18rem', left: '0rem'}}>
-          <Floatingdiv image={thumbup} txt1="Best" txt2="practice" />
+          <Floatingdiv image={Planet2} txt1="Best" txt2="practice" />
         </div>
       </div>
     </div>

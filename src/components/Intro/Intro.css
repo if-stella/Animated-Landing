@@ -1,6 +1,6 @@
 .intro {
   display:flex;
-  height: 77vh;
+  height: 75vh;
   padding: 2rem 3.5rem;
 }
 
@@ -92,9 +92,9 @@
   width: 40rem;
   height: 24rem;
   border-radius: 50%;
-  background: #ffd484;
+  background: #ffe7b9;
   z-index: -1;
   top: 13%;
-  left: 10%;
+  left: -10%;
   filter: blur(125px);
 }

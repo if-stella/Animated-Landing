@@ -1,0 +1,53 @@
+.experience {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  height:75vh;
+}
+
+.achievement {
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  width: 30vh;
+  justify-content: center;
+  align-items:center;
+  gap:8px;
+}
+
+.achievement span:nth-of-type(2){
+  color: var(--gray);
+}
+
+.achievement span:nth-of-type(1){
+  color: var(--orange);
+}
+
+.circle {
+  background: rgb(255, 255, 255);
+  width:4rem;
+  height:4rem;
+  border-radius:100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-weight:bold;
+  position:relative;
+  margin-bottom: 1rem;
+  color: var(--orange);
+}
+
+.circle::before {
+  border-radius: 100%;
+  background-image: linear-gradient(36deg, rgba(253,232,7,1) 0%, rgba(253,200,7,1) 32%, rgba(255,130,0,1) 95%);
+  content:'';
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  z-index:-1;
+  box-shadow: var(--boxShadow);
+  position: absolute;
+}

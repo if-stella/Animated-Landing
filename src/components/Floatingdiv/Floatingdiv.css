@@ -1,11 +1,10 @@
 .floatingdiv {
-  background: peachpuff;
+  background: rgba(255, 255, 255, 0.75);
   display:flex;
-  justify-content: space-between;
   align-items: center;
   box-shadow: var(--boxShadow);
   border-radius: 15px;
-  padding: 0px 24px 0px 0px;
+  padding: 0px 32px 0px 0px;
   height:4.5rem;
 }
 

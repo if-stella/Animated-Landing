@@ -42,19 +42,21 @@
   z-index:1;
 }
 
-.i-right > :nth-child(1) {
+.i-right > :nth-child(2) {
   transform: scale(0.69);
   left: -15%;
   top: -9%;
+  filter: blur(1px);
 }
-.i-right > :nth-child(2) {
-  top: -4.6rem;
-  transform: scale(0.67);
+.i-right > :nth-child(1) {
+  top: -1rem;
+  transform: scale(0.8);
   left: -3rem;
+  filter: blur(10px);
 }
 .i-right > :nth-child(3) {
   transform: scale(0.7);
-  left: 24%;
+  left: 20%;
   top: -4.5rem;
 }
 
@@ -95,6 +97,6 @@
   background: #ffe7b9;
   z-index: -1;
   top: 13%;
-  left: -10%;
+  right: -10%;
   filter: blur(125px);
 }

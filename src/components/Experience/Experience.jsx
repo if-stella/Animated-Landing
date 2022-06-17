@@ -6,17 +6,17 @@ const Experience = () => {
     <div className="experience">
       <div className="achievement">
         <div className="circle">2</div>
-        <span>cats</span>
+        <span>CATS</span>
         <span>to feed</span>
       </div>
       <div className="achievement">
         <div className="circle">18+</div>
-        <span>plants</span>
+        <span>PLANTS</span>
         <span>to greet</span>
       </div>
       <div className="achievement">
         <div className="circle">123+</div>
-        <span>things</span>
+        <span>THINGS</span>
         <span>to eat</span>
       </div>
     </div>

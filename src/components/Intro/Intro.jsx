@@ -10,6 +10,7 @@ import girl from '../../img/girl.png'
 import thumbup from '../../img/thumbup.png'
 import crown from '../../img/crown.png'
 import glassesimoji from '../../img/glassesimoji.png'
+import Resume from './resume.pdf'
 
 const Intro = () => {
   return (
@@ -20,7 +21,9 @@ const Intro = () => {
           <span>Stella Raab.</span>
           <span>Ui-Designer turned into a Frontend Developper, based in Berlin. Teaching and learning things at Le Wagon.</span>
         </div>
-        <button className="button i-button">Say hello</button>
+        <a href={Resume} download>
+        <button className="button i-button">Download resume</button>
+        </a>
         <div className="i-icons">
           <a href='http://lakaeserie.de/' target='blank'>
             <img src={Github} alt="Github-icon"/>
@@ -33,7 +36,7 @@ const Intro = () => {
           </a>
         </div>
       </div>
-      <div className="i-blur">yuhu</div>
+      <div className="i-blur"></div>
       <div className="i-right">
         <img src={Vector1} alt="Vector1"/>
         <img src={Vector2} alt="Vector2"/>

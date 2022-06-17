@@ -1,0 +1,84 @@
+.works {
+  display: flex;
+  padding: 2rem 3.5rem;
+  align-items:center;
+  height:90vh;
+}
+
+.w-right {
+  position: relative;
+  flex:1;
+}
+
+.w-mainCircle {
+  position: relative;
+  left:9rem;
+  top:2rem;
+  width:18rem;
+  height:18rem;
+  border-radius: 100%;
+  box-shadow: var(--smboxShadow);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.w-mainCircle>*{
+  position: absolute;
+}
+
+.w-mainCircle > :nth-child(1) {
+  top: -2rem;
+  left: 6rem;
+}
+
+.w-mainCircle > :nth-child(2) {
+  top: 6rem;
+  left: 14rem;
+}
+
+.w-mainCircle > :nth-child(3) {
+  top: 14rem;
+  left: 6rem;
+}
+
+.w-mainCircle > :nth-child(4) {
+  top: 6rem;
+  left: -2rem;
+}
+
+.w-mainCircle > :nth-child(5) {
+  top: 6rem;
+  left: 6rem;
+}
+
+.w-secCircle {
+  width: 6rem;
+  height: 6rem;
+  position:absolute;
+  border-radius: 100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border: 2px solid #ebebeb;
+  background: white;
+  box-shadow: var(--smboxShadow);
+}
+
+.w-secCircle > img {
+  transform: scale(0.6);
+}
+
+.w-backCircle {
+  position:absolute;
+  width:15rem;
+  height:15rem;
+  border-radius: 100%;
+  z-index:-1;
+}
+
+.blueCircle {
+  background: paleturquoise;
+}
+
+.yellowCircle {
+  background: peachpuff;
+}

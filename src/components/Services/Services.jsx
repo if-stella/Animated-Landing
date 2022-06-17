@@ -16,26 +16,26 @@ const Services = () => {
           <span>This is a short descriptive text about me,<br/>which makes a lot of sense.</span>
         </div>
         <div>
-        <button className="button s-button">Download CV</button>
+        <button className="button s-button">Contact me!</button>
         </div>
       </div>
       <div className="s-blur"></div>
       <div className="s-right-cards">
-      <div style={{right: '40rem', top: '-17rem'}}>
+      <div style={{right: '30rem', top: '-17rem'}}>
           <Card
           icon = {Figma}
           heading = {'Figma'}
           detail = {'I design things, I do it good.'}
           />
         </div>
-        <div style={{left: '-20rem', top: '-12rem'}}>
+        <div style={{right: '13rem', top: '-12rem'}}>
           <Card
           icon = {Reacticon}
           heading = {'React'}
           detail = {'I code things, I do it good.'}
           />
         </div>
-        <div style={{right: '36rem', top: '1rem'}}>
+        <div style={{right: '31rem', top: '2rem'}}>
           <Card
           icon = {VSCode}
           heading = {'VSCode'}

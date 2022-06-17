@@ -2,7 +2,7 @@
   display: flex;
   padding: 2rem 3.5rem;
   align-items:center;
-  height:90vh;
+  height:75vh;
 }
 
 .w-right {
@@ -76,9 +76,15 @@
 }
 
 .blueCircle {
-  background: paleturquoise;
+  background: #1A89E2;
+  left: 13rem;
+  top: 0rem;
+  filter:blur(50px);
 }
 
 .yellowCircle {
-  background: peachpuff;
+  background: #FDC807;
+  left: 20rem;
+  top: 8rem;
+  filter:blur(50px);
 }

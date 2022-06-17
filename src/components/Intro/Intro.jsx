@@ -38,8 +38,8 @@ const Intro = () => {
       </div>
       <div className="i-blur"></div>
       <div className="i-right">
-        <img src={Vector1} alt="Vector1"/>
         <img src={Vector2} alt="Vector2"/>
+        <img src={Vector1} alt="Vector1"/>
         <img src={girl} alt="girl"/>
         <img src={glassesimoji} alt="glassesimoji"/>
         <div style={{top: '-4%', left: '68%'}}>

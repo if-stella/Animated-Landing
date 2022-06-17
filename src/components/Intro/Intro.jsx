@@ -33,6 +33,7 @@ const Intro = () => {
           </a>
         </div>
       </div>
+      <div className="i-blur">yuhu</div>
       <div className="i-right">
         <img src={Vector1} alt="Vector1"/>
         <img src={Vector2} alt="Vector2"/>
@@ -44,7 +45,6 @@ const Intro = () => {
         <div style={{top: '18rem', left: '0rem'}}>
           <Floatingdiv image={thumbup} txt1="Best" txt2="practice" />
         </div>
-        <div className="i-blur">yuhu</div>
       </div>
     </div>
   )

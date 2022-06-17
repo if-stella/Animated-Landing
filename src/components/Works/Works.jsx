@@ -11,9 +11,9 @@ const Works = () => {
     <div className="works">
       <div className="s-left">
         <div className="s-text">
-          <span>Brands</span>
+          <span>Companies</span>
           <span>I've worked for</span>
-          <span>These are some of the awesome projects,<br/>that I have worked on.</span>
+          <span>These are some of the companies,<br/>that I have worked for.</span>
         </div>
       </div>
       <div className="w-right">

@@ -1,9 +1,9 @@
 import React from 'react'
 import Card from '../Card/Card'
 import './Services.css'
-import Figma from '../../img/service-figma.png'
-import Reacticon from '../../img/service-react.png'
-import VSCode from '../../img/service-vscode.png'
+import Think from '../../img/service-think.png'
+import HTML from '../../img/service-html.png'
+import Sketch from '../../img/service-sketch.png'
 
 
 const Services = () => {
@@ -23,23 +23,23 @@ const Services = () => {
       <div className="s-right-cards">
       <div style={{right: '30rem', top: '-17rem'}}>
           <Card
-          icon = {Figma}
-          heading = {'Figma'}
+          icon = {Sketch}
+          heading = {'Design'}
           detail = {'I design things, I do it good.'}
           />
         </div>
         <div style={{right: '13rem', top: '-12rem'}}>
           <Card
-          icon = {Reacticon}
-          heading = {'React'}
+          icon = {HTML}
+          heading = {'Code'}
           detail = {'I code things, I do it good.'}
           />
         </div>
         <div style={{right: '31rem', top: '2rem'}}>
           <Card
-          icon = {VSCode}
-          heading = {'VSCode'}
-          detail = {"I code even more, it's even better."}
+          icon = {Think}
+          heading = {'Brain'}
+          detail = {"I think about even more, it's even better."}
           />
         </div>
       </div>

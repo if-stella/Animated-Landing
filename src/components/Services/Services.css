@@ -48,7 +48,7 @@
   width: 40rem;
   height:10rem;
   border-radius: 50%;
-  background:rgb(255, 252, 246);
+  background: #eec8ff;
   filter: blur(125px);
   z-index: -5;
   right: -5%;

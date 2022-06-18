@@ -6,9 +6,12 @@ import Linkedin from '../../img/linkedin.png'
 import Instagram from '../../img/instagram.png'
 import Vector1 from '../../img/Vector1.png'
 import Vector2 from '../../img/Vector2.png'
-import girl from '../../img/girl.png'
-import Planet2 from '../../img/Planet2.png'
-import Planet1 from '../../img/Planet1.png'
+import Girl from '../../img/girl.png'
+import Rocket from '../../img/intro-rocket.png'
+import Telescope from '../../img/intro-telescope.png'
+import Moon from '../../img/intro-moon.png'
+import Planet2 from '../../img/intro-planet2.png'
+import Planet1 from '../../img/intro-planet1.png'
 import Star from '../../img/Star.png'
 import Resume from './resume.pdf'
 
@@ -40,14 +43,19 @@ const Intro = () => {
       <div className="i-right">
         <img src={Vector2} alt="Vector2"/>
         <img src={Vector1} alt="Vector1"/>
-        <img src={girl} alt="girl"/>
+        <img src={Girl} alt="girl"/>
         <img src={Star} alt="Star"/>
+        <img src={Planet1} alt="Planet 1"/>
+        <img src={Planet2} alt="Planet 2"/>
+        <img src={Moon} alt="Planet 2"/>
+        {/*
         <div style={{top: '-4%', left: '68%'}}>
-          <Floatingdiv image={Planet1} txt1="Web" txt2="Developper" />
+          <Floatingdiv image={Rocket} txt1="Web" txt2="Developper" />
         </div>
         <div style={{top: '18rem', left: '0rem'}}>
-          <Floatingdiv image={Planet2} txt1="Best" txt2="practice" />
+          <Floatingdiv image={Telescope} txt1="Best" txt2="practice" />
         </div>
+        */}
       </div>
     </div>
   )

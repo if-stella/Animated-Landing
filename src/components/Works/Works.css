@@ -76,7 +76,7 @@
 }
 
 .blueCircle {
-  background: #1A89E2;
+  background: rgba(223, 122, 232, 0.662);;
   left: 13rem;
   top: 0rem;
   filter:blur(50px);

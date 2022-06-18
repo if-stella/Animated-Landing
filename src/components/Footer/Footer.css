@@ -26,3 +26,12 @@
   display: flex;
   gap: 2rem;
 }
+
+.f-icons>* {
+  transition: transform 400ms ease-in-out 25ms;
+}
+
+.f-icons>*:hover {
+  transform: scale(1.25);
+  cursor: pointer;
+}

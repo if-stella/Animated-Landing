@@ -1,8 +1,8 @@
 import React from "react";
 import "./Footer.css";
 import Wave from "../../img/wave.png";
-import Insta from "@iconscout/react-unicons/icons/uil-instagram";
-import Gitub from "@iconscout/react-unicons/icons/uil-github";
+import Instagram from "@iconscout/react-unicons/icons/uil-instagram";
+import Github from "@iconscout/react-unicons/icons/uil-github";
 import Linkedin from "@iconscout/react-unicons/icons/uil-linkedin";
 import Behance from "@iconscout/react-unicons/icons/uil-behance";
 import Dribbble from "@iconscout/react-unicons/icons/uil-dribbble";
@@ -17,11 +17,21 @@ const Footer = () => {
         <span>Made with love by </span><span>Stella Raab</span>
         </div>
         <div className="f-icons">
-          <Insta color="white" size={"3rem"} />
-          <Gitub color="white" size={"3rem"} />
+          <a href='https://www.instagram.com/howlongisnever/' target='blank'>
+          <Instagram color="white" size={"3rem"} />
+          </a>
+          <a href='https://github.com/if-stella' target='blank'>
+          <Github color="white" size={"3rem"} />
+          </a>
+          <a href='https://www.linkedin.com/in/stella-raab/' target='blank'>
           <Linkedin color="white" size={"3rem"} />
+          </a>
+          <a href='https://dribbble.com/stellaraab' target='blank'>
           <Dribbble color="white" size={"3rem"} />
+          </a>
+          <a href='https://www.behance.net/stellaraab' target='blank'>
           <Behance color="white" size={"3rem"} />
+          </a>
         </div>
       </div>
     </div>

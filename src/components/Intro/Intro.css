@@ -104,14 +104,8 @@
   cursor: pointer;
 }
 
-.i-blur {
-  position: absolute;
-  width: 40rem;
-  height: 24rem;
-  border-radius: 50%;
+.i-b-y {
   background: #ffe7b9;
-  z-index: -1;
   top: 13%;
   right: -10%;
-  filter: blur(125px);
 }

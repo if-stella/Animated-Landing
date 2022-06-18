@@ -19,7 +19,7 @@ const Services = () => {
         <button className="button s-button">Contact me!</button>
         </div>
       </div>
-      <div className="s-blur"></div>
+      <div className="s-b-p"></div>
       <div className="s-right-cards">
       <div style={{right: '30rem', top: '-17rem'}}>
           <Card

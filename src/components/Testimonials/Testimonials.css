@@ -19,7 +19,7 @@
   font-weight:bold;
 }
 
-.t-blur {
+.blur {
   position: absolute;
   width: 40rem;
   height: 24rem;
@@ -51,12 +51,11 @@
   gap:0.5rem;
   background: rgba(255, 255, 255, 0.26);
   border: 2px solid var(--orangeCard);
-  box-shadow: var(--boxShadow);
   border-radius: 16px;
 }
 .testimonial>img{
-  width: 6rem;
-  height: 6rem;
+  width: 8rem;
+  height: 8rem;
   border-radius: 100%;
 }
 .testimonial>span{

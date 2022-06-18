@@ -39,7 +39,8 @@ const Intro = () => {
           </a>
         </div>
       </div>
-      <div className="i-blur"></div>
+      <div className="blur i-b-y"></div>
+      <div className="blur i-b-p"></div>
       <div className="i-right">
         <img src={Vector2} alt="Vector2"/>
         <img src={Vector1} alt="Vector1"/>

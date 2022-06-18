@@ -4,10 +4,10 @@ import {Swiper, SwiperSlide} from 'swiper/react'
 import 'swiper/css'
 import { Pagination } from "swiper";
 import "swiper/css/pagination";
-import Friend1 from "../../img/profile1.jpg";
-import Friend2 from "../../img/profile2.jpg";
-import Friend3 from "../../img/profile3.jpg";
-import Friend4 from "../../img/profile4.jpg";
+import Friend1 from "../../img/friend-1.png";
+import Friend2 from "../../img/friend-2.png";
+import Friend3 from "../../img/friend-3.png";
+import Friend4 from "../../img/friend-4.png";
 
 const Testimonials = () => {
 
@@ -41,8 +41,8 @@ const Testimonials = () => {
         <span>say </span>
         <span>about me:</span>
       </div>
-      <div className="t-blur t-b-y"></div>
-      <div className="t-blur t-b-p"></div>
+      <div className="blur t-b-y"></div>
+      <div className="blur t-b-p"></div>
       <Swiper
         modules={[Pagination]}
         slidesPerView={1}

@@ -3,4 +3,4 @@
 ## React Portfolio
 
 Just an other React-Portfolio.
-[Link to project](https://animated-react-portfolio.vercel.app/)
+[Link](https://animated-react-portfolio.vercel.app/)

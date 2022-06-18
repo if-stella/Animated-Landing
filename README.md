@@ -1,4 +1,5 @@
-![Portfolio Website](https://res.cloudinary.com/dr24t0rw2/image/upload/v1655576875/animated-react_dfwvfc.png)
+![Portfolio Website](https://res.cloudinary.com/dr24t0rw2/image/upload/v1655591692/Cover-aniport_w7jhz8.png)
+
 
 ## React Portfolio
 

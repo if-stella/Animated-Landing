@@ -8,12 +8,16 @@ import Emovis from '../../img/slider_3.png'
 import HelpLocal from '../../img/slider_4.png'
 import RSGG from '../../img/slider_5.png'
 import Cyvey from '../../img/slider_6.png'
+import { themeContext } from '../../Context'
+import { useContext } from 'react';
 
 const Portfolio = () => {
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
   return (
     <div className="portfolio">
       <div className="p-text">
-        <span>Some of my</span>
+        <span style={darkMode? {color: 'white'} : {color: ''}}>Some of my</span>
         <span>recent projects</span>
       </div>
       <Swiper

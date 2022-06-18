@@ -8,6 +8,8 @@ import Friend1 from "../../img/friend-1.png";
 import Friend2 from "../../img/friend-2.png";
 import Friend3 from "../../img/friend-3.png";
 import Friend4 from "../../img/friend-4.png";
+import { themeContext } from '../../Context'
+import { useContext } from 'react';
 
 const Testimonials = () => {
 
@@ -33,13 +35,15 @@ const Testimonials = () => {
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis!.",
     },
   ];
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
 
   return (
     <div className="testimonials">
       <div className="t-heading">
-        <span>What people </span>
+        <span style={darkMode? {color: 'white'} : {color: ''}}>What people </span>
         <span>say </span>
-        <span>about me:</span>
+        <span style={darkMode? {color: 'white'} : {color: ''}}>about me:</span>
       </div>
       <div className="blur t-b-y"></div>
       <div className="blur t-b-p"></div>

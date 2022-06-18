@@ -4,14 +4,17 @@ import './Services.css'
 import Think from '../../img/service-think.png'
 import HTML from '../../img/service-html.png'
 import Sketch from '../../img/service-sketch.png'
-
+import { themeContext } from '../../Context'
+import { useContext } from 'react';
 
 const Services = () => {
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
   return (
     <div className="services">
       <div className="s-left">
         <div className="s-text">
-          <span>My awesome</span>
+          <span style={darkMode? {color: 'white'} : {color: ''}}>My awesome</span>
           <span>Services</span>
           <span>This is a short descriptive text about me,<br/>which makes a lot of sense.</span>
         </div>

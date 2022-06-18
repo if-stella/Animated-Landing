@@ -11,13 +11,17 @@ import Planet2 from '../../img/intro-planet2.png'
 import Planet1 from '../../img/intro-planet1.png'
 import Star from '../../img/Star.png'
 import Resume from './resume.pdf'
+import { themeContext } from '../../Context'
+import { useContext } from 'react';
 
 const Intro = () => {
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
   return (
     <div className="intro">
       <div className="i-left">
         <div className="i-name">
-          <span>Hey, I'm</span>
+          <span style={darkMode? {color: 'white'} : {right: '4px'}}>Hey, I'm</span>
           <span>Stella Raab.</span>
           <span>Ui-Designer turned into a Frontend Developper, based in Berlin. Teaching and learning things at Le Wagon.</span>
         </div>

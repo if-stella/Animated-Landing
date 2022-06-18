@@ -5,13 +5,17 @@ import Civey from '../../img/work_cv.png'
 import Brandung from '../../img/work_ag.png'
 import Egue from '../../img/work_eg.png'
 import LeWagon from '../../img/work_lw.png'
+import { themeContext } from '../../Context'
+import { useContext } from 'react';
 
 const Works = () => {
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
   return (
     <div className="works">
       <div className="s-left">
         <div className="s-text">
-          <span>Companies</span>
+          <span style={darkMode? {color: 'white'} : {color: ''}}>Companies</span>
           <span>I've worked for</span>
           <span>These are some of the companies,<br/>that I have worked for.</span>
         </div>

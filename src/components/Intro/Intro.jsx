@@ -1,9 +1,6 @@
 import React from 'react'
 import './Intro.css'
 import Floatingdiv from "../Floatingdiv/Floatingdiv";
-import Github from '../../img/github.png'
-import Linkedin from '../../img/linkedin.png'
-import Instagram from '../../img/instagram.png'
 import Vector1 from '../../img/Vector1.png'
 import Vector2 from '../../img/Vector2.png'
 import Girl from '../../img/girl.png'
@@ -27,17 +24,6 @@ const Intro = () => {
         <a href={Resume} download>
         <button className="button i-button">Download resume</button>
         </a>
-        <div className="i-icons">
-          <a href='http://lakaeserie.de/' target='blank'>
-            <img src={Github} alt="Github-icon"/>
-          </a>
-          <a href='http://lakaeserie.de/' target='blank'>
-            <img src={Linkedin} alt="Linkedin-icon"/>
-          </a>
-          <a href='http://lakaeserie.de/' target='blank'>
-            <img src={Instagram} alt="Instagram-icon"/>
-          </a>
-        </div>
       </div>
       <div className="blur i-b-y"></div>
       <div className="blur i-b-p"></div>

@@ -39,7 +39,7 @@ const Services = () => {
           <Card
           icon = {Think}
           heading = {'Brain'}
-          detail = {"I think about even more, it's even better."}
+          detail = {"I think about things, that's even better."}
           />
         </div>
       </div>

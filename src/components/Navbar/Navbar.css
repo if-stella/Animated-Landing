@@ -28,6 +28,7 @@
 .n-list {
   display:flex;
   flex: 10;
+  align-items:center;
 }
 
 .n-list>ul {
@@ -44,4 +45,5 @@
 
 .n-button {
   flex: 2;
+  height: 2.5rem;
 }

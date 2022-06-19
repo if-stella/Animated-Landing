@@ -35,6 +35,7 @@ const Services = () => {
           icon = {Sketch}
           heading = {'Design'}
           detail = {'I design things, I do it good.'}
+          className="sercard"
           />
         </motion.div>
         <motion.div

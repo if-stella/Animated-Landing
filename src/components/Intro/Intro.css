@@ -45,14 +45,10 @@
 
 .i-right > :nth-child(2) {
   transform: scale(0.69);
-  left: -15%;
-  top: -9%;
   filter: blur(1px);
 }
 .i-right > :nth-child(1) {
-  top: -1rem;
   transform: scale(0.8);
-  left: -3rem;
   filter: blur(10px);
 }
 .i-right > :nth-child(3) {
@@ -63,26 +59,15 @@
 
 .i-right > :nth-child(4) {
   transform: scale(0.6);
-  top: -11%;
-  left: -10%;
 }
 
 .i-right > :nth-child(6) {
-  top: 1.25rem;
-  left: -2rem;
   transform: scale(0.5);
   filter:blur(1px);
 }
 
-.i-right > :nth-child(5) {
-  left: -1rem;
-  bottom: 11rem;
-}
-
 .i-right > :nth-child(7) {
   transform: scale(0.9);
-  left: 24.5rem;
-  top: 3rem;
 }
 
 .i-button {
@@ -107,5 +92,25 @@
 .i-b-y {
   background: #ffe7b9;
   top: 13%;
-  right: -10%;
+  right: 0%;
+}
+
+@media screen and (max-width: 790px) {
+  .intro {
+    flex-direction:column;
+  }
+  .i-right{
+    transform:scale(0.75);
+    left:-5rem;
+  }
+  .i-b-y {
+    top: 60%;
+    transform:scale(0.5);
+  }
+  .i-right > :nth-child(7) {
+    right: -10rem !important;
+  }
+  .i-right > :nth-child(5) {
+    top: 22rem !important;
+  }
 }

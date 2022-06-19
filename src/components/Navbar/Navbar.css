@@ -1,19 +1,20 @@
 .n-wrapper {
-  height: 6vh;
   display: flex;
-  justify-content: space-between;
-  padding: 0.5rem 3.5rem;
+  height: 8vh;
+  width:100vw;
   background:rgba(255, 255, 255, 0.75);
   backdrop-filter: blur(10px);
-  position: fixed;
-  width:100%;
   z-index:15;
   border-bottom: 1px solid white;
+  position:fixed;
+}
+
+.n-wrapper>* {
+margin:0.5rem 2rem;
 }
 
 .n-left {
   display: flex;
-  flex: 1;
   align-items: center;
   gap: 2rem;
 }
@@ -26,14 +27,12 @@
 .n-right {
   display: flex;
   flex: 1;
-  align-items: center;
-  justify-content: center;
+  justify-content: end;
   font-weight: normal;
 }
 
 .n-list {
   display:flex;
-  flex: 10;
   align-items:center;
 }
 
@@ -50,6 +49,22 @@
 }
 
 .n-button {
-  flex: 2;
   height: 2.5rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .n-button {
+    display:none;
+  }
+
+  .n-list>ul {
+    gap:1rem;
+    margin-right: 0rem;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .n-list {
+    display:none;
+  }
 }

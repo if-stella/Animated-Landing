@@ -3,10 +3,12 @@
   padding: 2rem 3.5rem;
   align-items:center;
   height:90vh;
+  background:yellow;
 }
 
 .s-left {
   position:relative;
+  background:orange !important;
 }
 
 .s-text {
@@ -52,4 +54,14 @@
   filter: blur(125px);
   z-index: -5;
   right: -5%;
+}
+
+@media screen and (max-width: 450) {
+  .services {
+    flex-direction:column;
+  }
+
+  .s-b-p {
+    display:none;
+  }
 }

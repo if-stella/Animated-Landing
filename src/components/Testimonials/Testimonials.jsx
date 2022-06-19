@@ -14,25 +14,13 @@ import { useContext } from 'react';
 const Testimonials = () => {
 
   const friends = [
-    {
-      img: Friend1,
-      review:
-        "Stella is nice, even the bestest of all. Although sometimes she eats too much cheese. This I don't like. Because I also like to eatchesse!!!",
+    {img: Friend1, review: "Stella is nice, even the bestest of all. Although sometimes she eats too much cheese. This I don't like. Because I also like to eatchesse!!!",
     },
-    {
-      img: Friend2,
-      review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis!.",
+    {img: Friend2,review: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis!.",
     },
-    {
-      img: Friend3,
-      review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis!.",
+    {img: Friend3,review: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis!.",
     },
-    {
-      img: Friend4,
-      review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis!.",
+    {img: Friend4,review: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis!.",
     },
   ];
   const theme = useContext(themeContext);
@@ -55,9 +43,9 @@ const Testimonials = () => {
         {friends.map((friend, index) => {
           return (
             <SwiperSlide key={index}>
-              <div className="testimonial">
+              <div className="testimonial" style={darkMode? {background: 'white'} : {color: ''}}>
                 <img src={friend.img} alt="" />
-                <span>{friend.review}</span>
+                <span style={darkMode? {color: 'var(--black)'} : {color: ''}}>{friend.review}</span>
               </div>
             </SwiperSlide>
           );

@@ -1,23 +1,28 @@
 import React from 'react'
 import './Experience.css'
+import { themeContext } from '../../Context'
+import { useContext } from 'react';
+
 
 const Experience = () => {
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
   return (
     <div className="experience">
       <div className="achievement">
         <div className="circle">2</div>
         <span>CATS</span>
-        <span>to feed</span>
+        <span style={darkMode? {color: 'white'} : {color: ''}}>to feed</span>
       </div>
       <div className="achievement">
         <div className="circle">18+</div>
         <span>PLANTS</span>
-        <span>to greet</span>
+        <span style={darkMode? {color: 'white'} : {color: ''}}>to greet</span>
       </div>
       <div className="achievement">
         <div className="circle">123+</div>
         <span>THINGS</span>
-        <span>to eat</span>
+        <span style={darkMode? {color: 'white'} : {color: ''}}>to eat</span>
       </div>
     </div>
   )

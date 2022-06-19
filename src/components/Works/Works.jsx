@@ -16,7 +16,7 @@ const Works = () => {
   const finalRot = { rotate:0 }
   const antiRot = {rotate:45}
   return (
-    <div className="works">
+    <div className="works" id="Work">
       <div className="s-left">
         <div className="s-text">
           <span style={darkMode? {color: 'white'} : {color: ''}}>Companies</span>

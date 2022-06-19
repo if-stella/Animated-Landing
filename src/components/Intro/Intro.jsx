@@ -30,7 +30,6 @@ const Intro = () => {
         </a>
       </div>
       <div className="blur i-b-y"></div>
-      <div className="blur i-b-p"></div>
       <div className="i-right">
         <motion.img
         initial= {{left: '-2%', top: '-2%'}}
@@ -59,8 +58,8 @@ const Intro = () => {
         transition={transition}
         src={Planet2} alt="Planet 2"/>
         <motion.img
-        initial= {{left: '85%', top: '-5%'}}
-        whileInView= {{left: '75%', top: '3%'}}
+        initial= {{right: '0%', top: '-5%'}}
+        whileInView= {{right: '15%', top: '3%'}}
         transition={transition}
         src={Moon} alt="Moon"/>
       </div>

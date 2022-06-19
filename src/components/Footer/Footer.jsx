@@ -7,7 +7,6 @@ import Linkedin from "@iconscout/react-unicons/icons/uil-linkedin";
 import Behance from "@iconscout/react-unicons/icons/uil-behance";
 import Dribbble from "@iconscout/react-unicons/icons/uil-dribbble";
 
-
 const Footer = () => {
   return (
     <div className="footer">

@@ -7,10 +7,14 @@ import Egue from '../../img/work_eg.png'
 import LeWagon from '../../img/work_lw.png'
 import { themeContext } from '../../Context'
 import { useContext } from 'react';
+import {motion} from 'framer-motion'
 
 const Works = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
+  const transition = {duration: 2, type: 'spring' }
+  const finalRot = { rotate:0 }
+  const antiRot = {rotate:45}
   return (
     <div className="works">
       <div className="s-left">
@@ -21,23 +25,49 @@ const Works = () => {
         </div>
       </div>
       <div className="w-right">
-        <div className="w-mainCircle">
-          <div className="w-secCircle">
+        <motion.div
+          initial={{ rotate:-45 }}
+          whileInView={{ rotate:0 }}
+          viewport={{margin: '-40px'}}
+          transition={transition}
+          className="w-mainCircle">
+          <motion.div
+          initial={antiRot}
+          whileInView={finalRot}
+          transition={transition}
+          className="w-secCircle">
             <img src={EdenSpiekermann} alt="" />
-          </div>
-          <div className="w-secCircle">
+          </motion.div>
+          <motion.div
+          initial={antiRot}
+          whileInView={finalRot}
+          transition={transition}
+          className="w-secCircle">
             <img src={Brandung} alt="" />
-          </div>
-          <div className="w-secCircle">
+          </motion.div>
+          <motion.div
+          initial={antiRot}
+          whileInView={finalRot}
+          transition={transition}
+          className="w-secCircle">
             <img src={Civey} alt="" />
-          </div>
-          <div className="w-secCircle">
+          </motion.div>
+          <motion.div
+          initial={antiRot}
+          whileInView={finalRot}
+          transition={transition}
+          className="w-secCircle">
             <img src={Egue} alt="" />
-          </div>
-          <div className="w-secCircle">
+          </motion.div>
+          <motion.div
+          initial={antiRot}
+          whileInView={finalRot}
+          transition={transition}
+          className="w-secCircle">
             <img src={LeWagon} alt="" />
-          </div>
-        </div>
+          </motion.div>
+
+        </motion.div>
         <div className="w-backCircle blueCircle"></div>
         <div className="w-backCircle yellowCircle"></div>
       </div>

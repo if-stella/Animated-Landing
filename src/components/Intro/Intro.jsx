@@ -2,7 +2,7 @@ import React from 'react'
 import './Intro.css'
 import Vector1 from '../../img/Vector1.png'
 import Vector2 from '../../img/Vector2.png'
-import Girl from '../../img/girl.png'
+import Girl from '../../img/moi.png'
 import Moon from '../../img/intro-moon.png'
 import Planet2 from '../../img/intro-planet2.png'
 import Planet1 from '../../img/intro-planet1.png'
@@ -18,7 +18,7 @@ const Intro = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
-    <div className="intro">
+    <div className="intro" id="Intro">
       <div className="i-left">
         <div className="i-name">
           <span style={darkMode? {color: 'white'} : {right: '4px'}}>Hey, I'm</span>

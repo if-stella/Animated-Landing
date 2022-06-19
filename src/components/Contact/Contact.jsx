@@ -7,7 +7,7 @@ const Contact = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
-    <div className="contact">
+    <div className="contact" id="Contact">
       <div className="s-left">
         <div className="s-text">
           <span style={darkMode? {color: 'white'} : {color: ''}}>Get in touch</span>

@@ -27,7 +27,7 @@ const Testimonials = () => {
   const darkMode = theme.state.darkMode;
 
   return (
-    <div className="testimonials">
+    <div className="testimonials" id="Testimonials">
       <div className="t-heading">
         <span style={darkMode? {color: 'white'} : {color: ''}}>What people </span>
         <span>say </span>

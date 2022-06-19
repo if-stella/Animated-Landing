@@ -1,8 +1,14 @@
 .n-wrapper {
-  height: 8vh;
+  height: 6vh;
   display: flex;
   justify-content: space-between;
   padding: 0.5rem 3.5rem;
+  background:rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(10px);
+  position: fixed;
+  width:100%;
+  z-index:15;
+  border-bottom: 1px solid white;
 }
 
 .n-left {
@@ -38,7 +44,7 @@
   list-style: none;
 }
 
-.n-list>ul>li:hover {
+.n-list li:hover {
   cursor:pointer;
   color: var(--orange)
 }

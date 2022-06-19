@@ -14,9 +14,7 @@ import {motion} from 'framer-motion'
 
 
 const Intro = () => {
-
   const transition = {duration: 2, type: 'spring', ease: [0.17, 0.67, 0.90, 0.67] }
-
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
@@ -46,9 +44,9 @@ const Intro = () => {
         src={Vector1} alt="Vector1"/>
         <img src={Girl} alt="girl"/>
         <motion.img
-         initial= {{left: '-12%', top: '-5%'}}
-         whileInView= {{left: '0%', top: '0%'}}
-         transition={transition}
+        initial= {{left: '-12%', top: '-5%'}}
+        whileInView= {{left: '0%', top: '0%'}}
+        transition={transition}
         src={Star} alt="Star"/>
         <motion.img
         initial= {{left: '-25%', bottom: '-3%'}}

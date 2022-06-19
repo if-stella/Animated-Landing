@@ -1,20 +1,22 @@
 import React from 'react'
 import './Intro.css'
-import Floatingdiv from "../Floatingdiv/Floatingdiv";
 import Vector1 from '../../img/Vector1.png'
 import Vector2 from '../../img/Vector2.png'
 import Girl from '../../img/girl.png'
-import Rocket from '../../img/intro-rocket.png'
-import Telescope from '../../img/intro-telescope.png'
 import Moon from '../../img/intro-moon.png'
 import Planet2 from '../../img/intro-planet2.png'
 import Planet1 from '../../img/intro-planet1.png'
 import Star from '../../img/Star.png'
 import Resume from './resume.pdf'
 import { themeContext } from '../../Context'
-import { useContext } from 'react';
+import { useContext } from 'react'
+import {motion} from 'framer-motion'
+
 
 const Intro = () => {
+
+  const transition = {duration: 2, type: 'spring', ease: [0.17, 0.67, 0.90, 0.67] }
+
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
@@ -32,21 +34,37 @@ const Intro = () => {
       <div className="blur i-b-y"></div>
       <div className="blur i-b-p"></div>
       <div className="i-right">
-        <img src={Vector2} alt="Vector2"/>
-        <img src={Vector1} alt="Vector1"/>
+        <motion.img
+        initial= {{left: '-2%', top: '-2%'}}
+        whileInView= {{left: '0%', top: '0%'}}
+        transition={transition}
+        src={Vector2} alt="Vector2"/>
+        <motion.img
+        initial= {{left: '2%', top: '2%'}}
+        whileInView= {{left: '0%', top: '0%'}}
+        transition={transition}
+        src={Vector1} alt="Vector1"/>
         <img src={Girl} alt="girl"/>
-        <img src={Star} alt="Star"/>
-        <img src={Planet1} alt="Planet 1"/>
-        <img src={Planet2} alt="Planet 2"/>
-        <img src={Moon} alt="Planet 2"/>
-        {/*
-        <div style={{top: '-4%', left: '68%'}}>
-          <Floatingdiv image={Rocket} txt1="Web" txt2="Developper" />
-        </div>
-        <div style={{top: '18rem', left: '0rem'}}>
-          <Floatingdiv image={Telescope} txt1="Best" txt2="practice" />
-        </div>
-        */}
+        <motion.img
+         initial= {{left: '-12%', top: '-5%'}}
+         whileInView= {{left: '0%', top: '0%'}}
+         transition={transition}
+        src={Star} alt="Star"/>
+        <motion.img
+        initial= {{left: '-25%', bottom: '-3%'}}
+        whileInView= {{left: '0%', bottom: '0%'}}
+        transition={transition}
+        src={Planet1} alt="Planet 1"/>
+        <motion.img
+        initial= {{left: '20%', top: '15%'}}
+        whileInView= {{left: '15%', top: '5%'}}
+        transition={transition}
+        src={Planet2} alt="Planet 2"/>
+        <motion.img
+        initial= {{left: '85%', top: '-5%'}}
+        whileInView= {{left: '75%', top: '3%'}}
+        transition={transition}
+        src={Moon} alt="Moon"/>
       </div>
     </div>
   )

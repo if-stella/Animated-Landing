@@ -12,13 +12,14 @@
 
 .w-mainCircle {
   position: relative;
-  left:9rem;
+  left:16rem;
   top:2rem;
   width:18rem;
   height:18rem;
   border-radius: 100%;
   box-shadow: var(--smboxShadow);
   background: rgba(255, 255, 255, 0.15);
+  border: 2px solid #ebebeb36;
 }
 
 .w-mainCircle>*{

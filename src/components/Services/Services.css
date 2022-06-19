@@ -3,12 +3,10 @@
   padding: 2rem 3.5rem;
   align-items:center;
   height:90vh;
-  background:yellow;
 }
 
 .s-left {
   position:relative;
-  background:orange !important;
 }
 
 .s-text {

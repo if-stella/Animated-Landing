@@ -35,3 +35,16 @@
   transform: scale(1.25);
   cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+  .f-content{
+    transform: scale(.9);
+    margin-top: 5rem;
+    gap:0.5rem;
+  }
+
+  .f-icons {
+    gap: 3rem;
+    transform: scale(.75);
+  }
+}

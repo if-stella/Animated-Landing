@@ -42,3 +42,19 @@ textarea{
   top: 3%;
   left: -30%;
 }
+
+@media screen and (max-width: 480px) {
+  .contact{
+    padding: 2.5rem 1.5rem;
+    flex-direction:column;
+  }
+
+  .c-right{
+    width: 100%;
+    margin-top:2rem;
+  }
+
+  .c-right .user{
+    width: 17rem;
+  }
+}

@@ -13,7 +13,7 @@
   width: 30vh;
   justify-content: center;
   align-items:center;
-  gap:8px;
+  gap:4px;
 }
 
 .achievement span:nth-of-type(2){
@@ -52,4 +52,27 @@
   z-index:-1;
   box-shadow: var(--boxShadow);
   position: absolute;
+}
+
+@media screen and (max-width: 480px) {
+  .experience {
+    padding: 2.5rem 1.5rem;
+    flex-direction: row;
+    align-items: center;
+    gap:2rem;
+    height:33vh;
+  }
+
+  .circle {
+    width:5rem;
+    height:5rem;
+    font-size:1.65rem;
+  }
+
+  .circle::before {
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+  }
 }

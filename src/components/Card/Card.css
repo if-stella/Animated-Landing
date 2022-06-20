@@ -9,7 +9,6 @@
   width:12rem;
   height:14rem;
   gap:1rem;
-  position: absolute;
   text-align:center;
   justify-content:center;
   padding: 24px;
@@ -43,4 +42,11 @@
 .card:hover {
   background: white;
   border: 2px solid white;
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    width: 16.5rem;
+    height:13rem;
+  }
 }

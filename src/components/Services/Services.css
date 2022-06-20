@@ -37,6 +37,8 @@
 
 .s-right-cards {
   position:relative;
+  flex:1;
+  left:15rem;
 }
 
 .s-right-cards>* {
@@ -44,22 +46,56 @@
 }
 
 .s-b-p {
-  position: relative;
+  position: absolute;
   width: 40rem;
   height:10rem;
   border-radius: 50%;
   background: #eec8ff;
   filter: blur(125px);
   z-index: -5;
-  right: -5%;
+  right: 2%;
 }
 
-@media screen and (max-width: 450) {
+@media screen and (max-width: 1000px) {
   .services {
     flex-direction:column;
+    align-items:center;
+    text-align:center;
+    margin-top:4rem;
+    height:75vh;
+  }
+
+  .s-right-cards{
+    display:flex;
+    gap:0.5rem;
+    width:100%;
+    align-items: center;
+    left:0rem;
+    margin-top: 2rem;
+  }
+
+  .s-right-cards>*{
+    position:static;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .services {
+    text-align:left;
+    flex-direction:column;
+    padding: 2.5rem 1.5rem;
+    gap:2rem;
+    height:64rem;
   }
 
   .s-b-p {
-    display:none;
+    display:none !important;
+  }
+
+  .s-right-cards{
+    flex-direction:column;
+    gap:1.5rem;
+    align-items: center;
+    margin-top: 0rem;
   }
 }

@@ -20,17 +20,13 @@ const Services = () => {
           <span>Services</span>
           <span>This is a short descriptive text about me,<br/>which makes a lot of sense.</span>
         </div>
-        <div>
-        <button className="button s-button">Contact me!</button>
-        </div>
       </div>
-      <div className="s-b-p"></div>
       <div className="s-right-cards">
-      <motion.div
-      initial= {{top: '-13rem'}}
-      whileInView= {{top: '-17rem'}}
-      transition={transition}
-      style={{right: '30rem', top: '-17rem'}}>
+        <motion.div
+        initial= {{top: '-13rem'}}
+        whileInView= {{top: '-17rem'}}
+        transition={transition}
+        style={{right: '30rem', top: '-17rem'}}>
           <Card
           icon = {Sketch}
           heading = {'Design'}
@@ -61,6 +57,7 @@ const Services = () => {
           />
         </motion.div>
       </div>
+      <div className="s-b-p"></div>
     </div>
   )
 }

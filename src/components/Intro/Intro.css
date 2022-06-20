@@ -96,15 +96,12 @@
 }
 
 @media screen and (max-width: 790px) {
-  .intro {
-    flex-direction:column;
-  }
   .i-right{
     transform:scale(0.75);
-    left:-5rem;
+    left:-4rem;
   }
   .i-b-y {
-    top: 60%;
+    top: 15rem;
     transform:scale(0.5);
   }
   .i-right > :nth-child(7) {
@@ -113,4 +110,19 @@
   .i-right > :nth-child(5) {
     top: 22rem !important;
   }
+}
+
+@media screen and (max-width: 480px) {
+  .intro{
+    padding: 2.5rem 1.5rem;
+    flex-direction:column;
+    height:35rem;
+  }
+
+  .i-right{
+    transform:scale(0.6);
+    left:-4.5rem;
+    top:-4rem;
+  }
+
 }

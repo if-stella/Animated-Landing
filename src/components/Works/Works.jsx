@@ -17,12 +17,10 @@ const Works = () => {
   const antiRot = {rotate:45}
   return (
     <div className="works" id="Work">
-      <div className="s-left">
-        <div className="s-text">
-          <span style={darkMode? {color: 'white'} : {color: ''}}>Companies</span>
-          <span>I've worked for</span>
-          <span>These are some of the companies,<br/>that I have worked for.</span>
-        </div>
+      <div className="w-text">
+        <span style={darkMode? {color: 'white'} : {color: ''}}>Companies</span>
+        <span>I've worked for</span>
+        <span>These are some of the companies,<br/>that I have worked for.</span>
       </div>
       <div className="w-right">
         <motion.div
@@ -66,7 +64,6 @@ const Works = () => {
           className="w-secCircle">
             <img src={LeWagon} alt="" />
           </motion.div>
-
         </motion.div>
         <div className="w-backCircle blueCircle"></div>
         <div className="w-backCircle yellowCircle"></div>

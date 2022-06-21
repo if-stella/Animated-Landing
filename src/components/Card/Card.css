@@ -44,9 +44,9 @@
   border: 2px solid white;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .card {
-    width: 16.5rem;
-    height:13rem;
+    width: 21rem;
+    height:11rem;
   }
 }

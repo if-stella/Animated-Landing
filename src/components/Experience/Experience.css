@@ -54,7 +54,7 @@
   position: absolute;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .experience {
     padding: 2.5rem 1.5rem;
     flex-direction: row;

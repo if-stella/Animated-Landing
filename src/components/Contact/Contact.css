@@ -43,10 +43,11 @@ textarea{
   left: -30%;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .contact{
     padding: 2.5rem 1.5rem;
     flex-direction:column;
+    height:61vh;
   }
 
   .c-right{

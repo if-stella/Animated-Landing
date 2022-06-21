@@ -14,13 +14,11 @@ const Services = () => {
   const darkMode = theme.state.darkMode;
   return (
     <div className="services" id="Services">
-      <div className="s-left">
-        <div className="s-text">
+        <div className="w-text">
           <span style={darkMode? {color: 'white'} : {color: ''}}>My awesome</span>
           <span>Services</span>
           <span>This is a short descriptive text about me,<br/>which makes a lot of sense.</span>
         </div>
-      </div>
       <div className="s-right-cards">
         <motion.div
         initial= {{top: '-13rem'}}

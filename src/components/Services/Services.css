@@ -5,13 +5,9 @@
   height:90vh;
 }
 
-.s-left {
-  position:relative;
-}
-
 .s-text {
   display:flex;
-  flex-direction: column;
+  flex-direction:column;
 }
 
 .s-text>:nth-child(1) {
@@ -60,7 +56,6 @@
   .services {
     flex-direction:column;
     align-items:center;
-    text-align:center;
     margin-top:4rem;
     height:75vh;
   }
@@ -79,13 +74,13 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .services {
     text-align:left;
     flex-direction:column;
     padding: 2.5rem 1.5rem;
     gap:2rem;
-    height:64rem;
+    height:54rem;
   }
 
   .s-b-p {
